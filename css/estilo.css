@@ -1,0 +1,157 @@
+
+
+/*CORPO*/
+
+body{
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*menu*/
+
+header{
+  position: fixed;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+
+
+
+/*LOGO ( LOJA DE JOGOS)*/
+
+.lelf_area h3{
+  color:black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+
+/*BOTAO SHOPPING*/
+
+.logout_btn{
+  padding: 5px;
+  font-size: 25px;
+  background: transparent;
+  text-decoration: none;
+  float: right;
+  margin-top: -45px;
+  margin-right: 50px;
+  border-radius: 2px;
+}
+
+/*BOTÃO USER*/
+
+.logout_btn2{
+  padding: 5px;
+  font-size: 25px;
+  background: transparent;
+  text-decoration: none;
+  float: right;
+  margin-top: -45px;
+  margin-right: 150px;
+  border-radius: 2px;
+}
+
+.loja img{
+  width: 50px;
+  height: 180px;
+  margin-top: -45px;
+  margin-right: 150px;
+  border-radius: 2px;
+  float: left;
+}
+/*BOTAO SHOPPING COR */
+
+.fa-shopping-cart{
+  color: black;
+}
+
+/*BOTÃO USER COR */
+
+.fa-user{
+  color: black;
+}
+
+/*MENU VERTICAL*/
+
+.sidebar{
+  background: linear-gradient(to top,#33ccff 0%,  #b4fdff 100%);
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+
+.sidebar a{
+  color: white;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+
+.sidebar a:hover{
+background: #ff99cc;
+}
+
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+
+
+.rodape {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:30px;   /* Mesma Altura do Rodapé */
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+.rodape h3{
+  color:black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  margin-right: 20px;
+  align-items: center;
+  float: right;
+}
+
+.rodape h3{
+  color:black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  margin-right: 20px;
+  align-items: center;
+  float: right;
+}
+
+
+.rodape telefone{
+  color:black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  margin-right: 20px;
+  align-items: center;
+  float: right;
+}
